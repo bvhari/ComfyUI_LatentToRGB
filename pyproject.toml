@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_latenttorgb"
+description = "ComfyUI custom node to convert latent to RGB."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torch"]
+
+[project.urls]
+Repository = "https://github.com/bvhari/ComfyUI_LatentToRGB"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_LatentToRGB"
+Icon = ""
